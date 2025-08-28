@@ -16,3 +16,34 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.custom-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  background-attachment: fixed;
+}
+
+.top-banner {
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 0 0 16px 16px;
+  margin-bottom: 24px;
+}
+
+.bottom-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 9999;
+}

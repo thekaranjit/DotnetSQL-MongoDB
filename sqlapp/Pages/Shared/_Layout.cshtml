@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/sqlapp.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="custom-bg">
+    <div class="top-banner text-center py-2">Made by karan</div>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -30,10 +31,12 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container position-relative" style="min-height: 80vh;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    <div class="bottom-banner text-center">Connect with me @@thekaranjit</div>
     </div>
 
     <footer class="border-top footer text-muted">
